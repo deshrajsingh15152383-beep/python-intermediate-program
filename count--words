@@ -1,0 +1,14 @@
+n=input("Enter string :")
+count=0
+
+if not n:
+    print("String is empty no words")
+else:
+    for char in n:
+        if char ==" ":
+            count+=1
+        
+    if count!=0:
+        print(f"{count} words")
+    else:
+        print(f"{count+1} words")
