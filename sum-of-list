@@ -1,0 +1,5 @@
+l=[10,20,30,50,30,100,50,30,5,25]
+sum=0
+for i in range(len(l)):
+    sum+=l[i]
+print(f"The sum of the list is {sum}")
