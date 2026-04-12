@@ -1,0 +1,16 @@
+l1 = [1, 2, 3]
+l2 = [4, 5, 6]
+
+merged = [0] * (len(l1) + len(l2))  # create empty list
+
+k = 0
+
+for i in range(len(l1)):
+    merged[k] = l1[i]
+    k += 1
+
+for i in range(len(l2)):
+    merged[k] = l2[i]
+    k += 1
+
+print(merged)
